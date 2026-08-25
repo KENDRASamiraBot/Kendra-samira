@@ -2,7 +2,7 @@ import os
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = "8545491741:AAF0UVYnnr7xuFCA3NB3YDkwx9Pynj10niM"
+TOKEN = os.getenv("TELEGRAM_TOKEN")
 CREATRICE = "MEFIRE SAMIRA"
 NOM_BOT = "KENDRA IA+"
 
